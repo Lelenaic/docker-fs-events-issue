@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "dev": "yarn && ./node_modules/.bin/forever -w index.js"
+  },
+  "devDependencies": {
+    "forever": "^0.15.3"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
